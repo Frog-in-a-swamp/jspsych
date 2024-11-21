@@ -387,3 +387,4 @@ e.g., timeline.push(bds_adaptive)
 var bds_adaptive = {
 	timeline: [preload_digits, bds_welcome, bds_mainproc, bds_wrapup]
 };
+timeline.push(bds_adaptive);
