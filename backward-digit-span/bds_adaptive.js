@@ -71,7 +71,7 @@ var aud_digits = ['digits/one.wav', 'digits/two.wav', 'digits/three.wav', 'digit
 
 //add to the dataframe whether the BDS was auditory or visual
 jsPsych.data.addProperties({
-BDS_modality: (useAudio ? 'auditory' : 'visual')
+BDS_modality: ('auditory')
 });
 
 //file map for use in the auditory implementation
